@@ -18,7 +18,6 @@ public class Controller {
   }
 
   @GetMapping("info")
-  @PostMapping("save")
   public ResponseEntity<String> get() {
     //TODO: Get day info
     return new ResponseEntity<>(HttpStatus.OK);
